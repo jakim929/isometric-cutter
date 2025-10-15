@@ -1,0 +1,54 @@
+<svg width="512" height="256" viewBox="0 0 512 256" xmlns="http://www.w3.org/2000/svg">
+    <!-- Base isometric ground -->
+    <polygon points="256,0 512,128 256,256 0,128" fill="#8cba51" stroke="#000" stroke-width="2" />
+
+    <!-- Grid pattern -->
+    <line x1="256" y1="0" x2="256" y2="256" stroke="#729644" stroke-width="2" stroke-opacity="0.5" />
+    <line x1="170.67" y1="42.67" x2="341.33" y2="213.33" stroke="#729644" stroke-width="2"
+        stroke-opacity="0.5" />
+    <line x1="341.33" y1="42.67" x2="170.67" y2="213.33" stroke="#729644" stroke-width="2"
+        stroke-opacity="0.5" />
+
+    <!-- Left section with darker grass -->
+    <polygon points="0,128 85.33,85.33 85.33,170.67 0,128" fill="#6b8f3d" stroke="#5a7a30"
+        stroke-width="1" />
+
+    <!-- Right section with flowers -->
+    <polygon points="426.67,85.33 512,128 426.67,170.67 426.67,85.33" fill="#7aad48"
+        stroke="#5a7a30" stroke-width="1" />
+
+    <!-- Top section with path -->
+    <polygon points="256,0 341.33,42.67 170.67,42.67 256,0" fill="#b9a77b" stroke="#9e8c60"
+        stroke-width="1" />
+
+    <!-- Bottom section with water -->
+    <polygon points="170.67,213.33 341.33,213.33 256,256 170.67,213.33" fill="#5e92c2"
+        stroke="#4a75a2" stroke-width="1" />
+
+    <!-- Central feature - a small house -->
+    <polygon points="256,85.33 298.67,106.67 256,128 213.33,106.67" fill="#d77d3b" stroke="#b25d28"
+        stroke-width="1" />
+    <polygon points="256,64 298.67,85.33 256,106.67 213.33,85.33" fill="#8c4c24" stroke="#6a3919"
+        stroke-width="1" />
+
+    <!-- Some vegetation features -->
+    <circle cx="170.67" cy="85.33" r="10" fill="#5a7a30" />
+    <circle cx="341.33" cy="170.67" r="10" fill="#5a7a30" />
+    <circle cx="128" cy="128" r="8" fill="#5a7a30" />
+    <circle cx="384" cy="128" r="8" fill="#5a7a30" />
+
+    <!-- Flowers in sections -->
+    <circle cx="452" cy="113" r="3" fill="#f7e45d" />
+    <circle cx="468" cy="128" r="3" fill="#f7e45d" />
+    <circle cx="452" cy="143" r="3" fill="#f7e45d" />
+
+    <!-- Some pathway stones -->
+    <circle cx="230" cy="21" r="4" fill="#c9b78a" />
+    <circle cx="256" cy="21" r="4" fill="#c9b78a" />
+    <circle cx="282" cy="21" r="4" fill="#c9b78a" />
+
+    <!-- Rocks near water -->
+    <circle cx="200" cy="213" r="5" fill="#a5a5a5" />
+    <circle cx="230" cy="223" r="5" fill="#a5a5a5" />
+    <circle cx="300" cy="223" r="5" fill="#a5a5a5" />
+</svg>

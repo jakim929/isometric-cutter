@@ -7,7 +7,10 @@
   "scripts": {
     "start": "tsx src/index.ts",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "mask": "tsx src/maskMain.ts",
+    "crop": "tsx src/cropCenterMain.ts",
+    "create-path-tiles": "tsx src/createPathTilesMain.ts"
   },
   "license": "MIT",
   "devDependencies": {
@@ -19,5 +22,8 @@
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.19.0"
+  },
+  "dependencies": {
+    "sharp": "^0.34.0"
   }
 }
